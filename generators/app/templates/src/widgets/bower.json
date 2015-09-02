@@ -1,0 +1,19 @@
+{
+    "name": "widgets",
+    "version": "0.1.0",
+    "author": [
+        "Alan-W" 
+    ],
+    "description": "widgets for project h5-test",
+    "liscense": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "./",
+        "test"
+    ],
+    "dependencies": {
+        "kissymini": "~1.0.0"
+    }
+}

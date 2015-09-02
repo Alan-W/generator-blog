@@ -1,0 +1,36 @@
+{
+  "name": "generator-car",
+  "version": "1.0.0",
+  "description": "generator golden car app",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "auhtor": [
+    {"name": "Alan",
+      "email": "wfy_19940516@163.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Alan-W/generator-car.git"
+  },
+  "keywords": [
+  "yeoman-generator",
+  "generator-car"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "yeoman-generator": "^0.19.2",
+    "yosay": "^1.0.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0"
+  },
+  "readmeFilename": "README.md",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "MIT"
+}

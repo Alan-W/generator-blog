@@ -1,0 +1,21 @@
+{
+  "name": "<%= packageName %>",
+  "version": "<%= version %>",
+  "description": "<%= packageDesc%>",
+  "author": {
+    "name": "<%= author %>",
+    "email": "<%= email %>"
+  },
+  "keywords": [
+    "kissymini",
+    "<%= projectName %>"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "time-grunt": "^0.2.10",
+    "grunt-contrib-copy": "",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-clean": "~0.4.0"
+  },
+  "dependencies": {}
+}
